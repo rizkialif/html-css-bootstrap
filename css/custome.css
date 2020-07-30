@@ -1,0 +1,67 @@
+.topbar{
+    padding-top: 10px;
+}
+/* .navbarbg{
+    background-color: aliceblue;
+} */
+.title{
+    text-align: center;
+    position: relative;
+    color: rgb(140, 0, 153);
+}
+.jumbo{
+    padding: 4.2rem 1rem;
+    background-color: transparent;
+    border-radius: 0.3rem;
+    color: white;
+}
+
+/* =====css untuk list========== */
+.link{
+    color: white;
+    font-style:italic;
+}
+.link:hover{
+    color: rgb(0, 99, 156);
+}
+/* =====css untuk list========== */
+
+/* untuk mengatur besar background */
+
+#headerbg{
+    background-image: url("../image/BG\ AGE\ GROUPS-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: bottom;
+    
+}
+.headerform{
+    background-image: url("../image/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: bottom;
+}
+.display-5 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.display-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.logo{
+    height: 60px;
+    display: block;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+}
+.footer > a{
+    color: rgb(126, 0, 0);
+}

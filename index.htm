@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/logo.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row pt-5 pl-1">
+            <div class="col-md-12">
+                <a href="https://kodingnext.com/">
+                    <img src="image/logo_transparant.png" alt="" width="110" height="50" class="img-fluid">
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 py-5">
+                <h1 class="display-4">GET 15% OFF USING REFFERAL CODE</h1>
+                <p class="lead">We provide various programming courses from 4 year olds to Adults(16+). Our age groups are divided into 3 groups:</p>
+                <ol>
+                    <!-- berikan link tujuan di list -->
+                    <a href="" target="_blank"><li class="link">Little Koders</li></a>
+                    <a href="" target="_blank"><li class="link">Junior Koders</li></a>
+                    <a href="" target="_blank"><li class="link">Pro Koders</li></a>
+                </ol>
+                <hr class="my-4">
+
+                <!-- modal centered -->
+                <button type="button" class="btn btn-success btn-lg rounded-pill" data-toggle="modal" data-target="#exampleModalCenter">
+                    Get Free Trial
+                </button>
+            </div>
+            <div class="com-md-6">
+                <img src="image/gambar1.png" class="img-fluid ml-5" alt="">
+            </div>
+        </div>
+
+        <footer>
+            <p class="text-center">Copyright &copy; 2020 Koding Next Indonesia. All rights reservered 
+                <a href="" class="link">Terms and Conditions</a> | 
+                <a href="" class="link">Cookie Policy</a>
+             </p>
+        </footer>
+    </div>
+    
+    
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-black-50" id="exampleModalCenterTitle">Free Trial Registration Form</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-black-50">
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Name</label>
+                        <input type="text" class="form-control" required>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Age</label>
+                        <input type="number" class="form-control" required>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputAddress">Email</label>
+                      <input type="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress2">Phone</label>
+                      <input type="number" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputState">Courses</label>
+                        <select id="inputState" class="form-control" required>
+                          <option selected>Choose</option>
+                          <option>Little Koders</option>
+                          <option>Junior Koders</option>
+                          <option>Pro Koders</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputZip">Jadwal</label>
+                        <input type="date" class="form-control" required>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
